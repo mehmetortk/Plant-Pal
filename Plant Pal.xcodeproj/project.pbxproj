@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF7EE5812C3C4BC800FC21DE /* HomePlantAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5802C3C4BC800FC21DE /* HomePlantAppApp.swift */; };
-		DF7EE5832C3C4BC800FC21DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5822C3C4BC800FC21DE /* ContentView.swift */; };
+		DF7EE5812C3C4BC800FC21DE /* PlantPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5802C3C4BC800FC21DE /* PlantPal.swift */; };
 		DF7EE5852C3C4BC900FC21DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7EE5842C3C4BC900FC21DE /* Assets.xcassets */; };
 		DF7EE5882C3C4BC900FC21DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7EE5872C3C4BC900FC21DE /* Preview Assets.xcassets */; };
-		DF7EE5922C3C4BC900FC21DE /* HomePlantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5912C3C4BC900FC21DE /* HomePlantAppTests.swift */; };
-		DF7EE59C2C3C4BC900FC21DE /* HomePlantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE59B2C3C4BC900FC21DE /* HomePlantAppUITests.swift */; };
-		DF7EE59E2C3C4BC900FC21DE /* HomePlantAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE59D2C3C4BC900FC21DE /* HomePlantAppUITestsLaunchTests.swift */; };
+		DF7EE5922C3C4BC900FC21DE /* PlantPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5912C3C4BC900FC21DE /* PlantPalTests.swift */; };
+		DF7EE59C2C3C4BC900FC21DE /* PlantPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE59B2C3C4BC900FC21DE /* PlantPalUITests.swift */; };
+		DF7EE59E2C3C4BC900FC21DE /* PlantPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE59D2C3C4BC900FC21DE /* PlantPalUITestsLaunchTests.swift */; };
+		DF7EE5AF2C3C889100FC21DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5AE2C3C889100FC21DE /* HomeView.swift */; };
+		DF7EE5B12C3C88A200FC21DE /* PlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EE5B02C3C88A200FC21DE /* PlantsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF7EE57D2C3C4BC800FC21DE /* HomePlantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePlantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7EE5802C3C4BC800FC21DE /* HomePlantAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlantAppApp.swift; sourceTree = "<group>"; };
-		DF7EE5822C3C4BC800FC21DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF7EE57D2C3C4BC800FC21DE /* Plant Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7EE5802C3C4BC800FC21DE /* PlantPal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPal.swift; sourceTree = "<group>"; };
 		DF7EE5842C3C4BC900FC21DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7EE5872C3C4BC900FC21DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF7EE58D2C3C4BC900FC21DE /* HomePlantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePlantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7EE5912C3C4BC900FC21DE /* HomePlantAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlantAppTests.swift; sourceTree = "<group>"; };
-		DF7EE5972C3C4BC900FC21DE /* HomePlantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePlantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7EE59B2C3C4BC900FC21DE /* HomePlantAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlantAppUITests.swift; sourceTree = "<group>"; };
-		DF7EE59D2C3C4BC900FC21DE /* HomePlantAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlantAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF7EE58D2C3C4BC900FC21DE /* Plant PalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plant PalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7EE5912C3C4BC900FC21DE /* PlantPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPalTests.swift; sourceTree = "<group>"; };
+		DF7EE5972C3C4BC900FC21DE /* Plant PalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plant PalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7EE59B2C3C4BC900FC21DE /* PlantPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPalUITests.swift; sourceTree = "<group>"; };
+		DF7EE59D2C3C4BC900FC21DE /* PlantPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF7EE5AE2C3C889100FC21DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF7EE5B02C3C88A200FC21DE /* PlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,9 @@
 		DF7EE5742C3C4BC800FC21DE = {
 			isa = PBXGroup;
 			children = (
-				DF7EE57F2C3C4BC800FC21DE /* HomePlantApp */,
-				DF7EE5902C3C4BC900FC21DE /* HomePlantAppTests */,
-				DF7EE59A2C3C4BC900FC21DE /* HomePlantAppUITests */,
+				DF7EE57F2C3C4BC800FC21DE /* PlantPal */,
+				DF7EE5902C3C4BC900FC21DE /* PlantPalTests */,
+				DF7EE59A2C3C4BC900FC21DE /* PlantPalUITests */,
 				DF7EE57E2C3C4BC800FC21DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +86,23 @@
 		DF7EE57E2C3C4BC800FC21DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF7EE57D2C3C4BC800FC21DE /* HomePlantApp.app */,
-				DF7EE58D2C3C4BC900FC21DE /* HomePlantAppTests.xctest */,
-				DF7EE5972C3C4BC900FC21DE /* HomePlantAppUITests.xctest */,
+				DF7EE57D2C3C4BC800FC21DE /* Plant Pal.app */,
+				DF7EE58D2C3C4BC900FC21DE /* Plant PalTests.xctest */,
+				DF7EE5972C3C4BC900FC21DE /* Plant PalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF7EE57F2C3C4BC800FC21DE /* HomePlantApp */ = {
+		DF7EE57F2C3C4BC800FC21DE /* PlantPal */ = {
 			isa = PBXGroup;
 			children = (
-				DF7EE5802C3C4BC800FC21DE /* HomePlantAppApp.swift */,
-				DF7EE5822C3C4BC800FC21DE /* ContentView.swift */,
+				DF7EE5802C3C4BC800FC21DE /* PlantPal.swift */,
 				DF7EE5842C3C4BC900FC21DE /* Assets.xcassets */,
 				DF7EE5862C3C4BC900FC21DE /* Preview Content */,
+				DF7EE5AE2C3C889100FC21DE /* HomeView.swift */,
+				DF7EE5B02C3C88A200FC21DE /* PlantsView.swift */,
 			);
-			path = HomePlantApp;
+			path = PlantPal;
 			sourceTree = "<group>";
 		};
 		DF7EE5862C3C4BC900FC21DE /* Preview Content */ = {
@@ -110,29 +113,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DF7EE5902C3C4BC900FC21DE /* HomePlantAppTests */ = {
+		DF7EE5902C3C4BC900FC21DE /* PlantPalTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF7EE5912C3C4BC900FC21DE /* HomePlantAppTests.swift */,
+				DF7EE5912C3C4BC900FC21DE /* PlantPalTests.swift */,
 			);
-			path = HomePlantAppTests;
+			path = PlantPalTests;
 			sourceTree = "<group>";
 		};
-		DF7EE59A2C3C4BC900FC21DE /* HomePlantAppUITests */ = {
+		DF7EE59A2C3C4BC900FC21DE /* PlantPalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DF7EE59B2C3C4BC900FC21DE /* HomePlantAppUITests.swift */,
-				DF7EE59D2C3C4BC900FC21DE /* HomePlantAppUITestsLaunchTests.swift */,
+				DF7EE59B2C3C4BC900FC21DE /* PlantPalUITests.swift */,
+				DF7EE59D2C3C4BC900FC21DE /* PlantPalUITestsLaunchTests.swift */,
 			);
-			path = HomePlantAppUITests;
+			path = PlantPalUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF7EE57C2C3C4BC800FC21DE /* HomePlantApp */ = {
+		DF7EE57C2C3C4BC800FC21DE /* Plant Pal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF7EE5A12C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantApp" */;
+			buildConfigurationList = DF7EE5A12C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant Pal" */;
 			buildPhases = (
 				DF7EE5792C3C4BC800FC21DE /* Sources */,
 				DF7EE57A2C3C4BC800FC21DE /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = HomePlantApp;
+			name = "Plant Pal";
 			productName = HomePlantApp;
-			productReference = DF7EE57D2C3C4BC800FC21DE /* HomePlantApp.app */;
+			productReference = DF7EE57D2C3C4BC800FC21DE /* Plant Pal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF7EE58C2C3C4BC900FC21DE /* HomePlantAppTests */ = {
+		DF7EE58C2C3C4BC900FC21DE /* Plant PalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF7EE5A42C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantAppTests" */;
+			buildConfigurationList = DF7EE5A42C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant PalTests" */;
 			buildPhases = (
 				DF7EE5892C3C4BC900FC21DE /* Sources */,
 				DF7EE58A2C3C4BC900FC21DE /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				DF7EE58F2C3C4BC900FC21DE /* PBXTargetDependency */,
 			);
-			name = HomePlantAppTests;
+			name = "Plant PalTests";
 			productName = HomePlantAppTests;
-			productReference = DF7EE58D2C3C4BC900FC21DE /* HomePlantAppTests.xctest */;
+			productReference = DF7EE58D2C3C4BC900FC21DE /* Plant PalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DF7EE5962C3C4BC900FC21DE /* HomePlantAppUITests */ = {
+		DF7EE5962C3C4BC900FC21DE /* Plant PalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF7EE5A72C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantAppUITests" */;
+			buildConfigurationList = DF7EE5A72C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant PalUITests" */;
 			buildPhases = (
 				DF7EE5932C3C4BC900FC21DE /* Sources */,
 				DF7EE5942C3C4BC900FC21DE /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				DF7EE5992C3C4BC900FC21DE /* PBXTargetDependency */,
 			);
-			name = HomePlantAppUITests;
+			name = "Plant PalUITests";
 			productName = HomePlantAppUITests;
-			productReference = DF7EE5972C3C4BC900FC21DE /* HomePlantAppUITests.xctest */;
+			productReference = DF7EE5972C3C4BC900FC21DE /* Plant PalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DF7EE5782C3C4BC800FC21DE /* Build configuration list for PBXProject "HomePlantApp" */;
+			buildConfigurationList = DF7EE5782C3C4BC800FC21DE /* Build configuration list for PBXProject "Plant Pal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF7EE57C2C3C4BC800FC21DE /* HomePlantApp */,
-				DF7EE58C2C3C4BC900FC21DE /* HomePlantAppTests */,
-				DF7EE5962C3C4BC900FC21DE /* HomePlantAppUITests */,
+				DF7EE57C2C3C4BC800FC21DE /* Plant Pal */,
+				DF7EE58C2C3C4BC900FC21DE /* Plant PalTests */,
+				DF7EE5962C3C4BC900FC21DE /* Plant PalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7EE5832C3C4BC800FC21DE /* ContentView.swift in Sources */,
-				DF7EE5812C3C4BC800FC21DE /* HomePlantAppApp.swift in Sources */,
+				DF7EE5AF2C3C889100FC21DE /* HomeView.swift in Sources */,
+				DF7EE5812C3C4BC800FC21DE /* PlantPal.swift in Sources */,
+				DF7EE5B12C3C88A200FC21DE /* PlantsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7EE5922C3C4BC900FC21DE /* HomePlantAppTests.swift in Sources */,
+				DF7EE5922C3C4BC900FC21DE /* PlantPalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7EE59C2C3C4BC900FC21DE /* HomePlantAppUITests.swift in Sources */,
-				DF7EE59E2C3C4BC900FC21DE /* HomePlantAppUITestsLaunchTests.swift in Sources */,
+				DF7EE59C2C3C4BC900FC21DE /* PlantPalUITests.swift in Sources */,
+				DF7EE59E2C3C4BC900FC21DE /* PlantPalUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		DF7EE58F2C3C4BC900FC21DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF7EE57C2C3C4BC800FC21DE /* HomePlantApp */;
+			target = DF7EE57C2C3C4BC800FC21DE /* Plant Pal */;
 			targetProxy = DF7EE58E2C3C4BC900FC21DE /* PBXContainerItemProxy */;
 		};
 		DF7EE5992C3C4BC900FC21DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF7EE57C2C3C4BC800FC21DE /* HomePlantApp */;
+			target = DF7EE57C2C3C4BC800FC21DE /* Plant Pal */;
 			targetProxy = DF7EE5982C3C4BC900FC21DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HomePlantApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlantPal/Preview Content\"";
 				DEVELOPMENT_TEAM = 5A4FK27KR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -435,7 +439,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MehmetErenOrtak.HomePlantApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MehmetErenOrtak.PlantPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HomePlantApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlantPal/Preview Content\"";
 				DEVELOPMENT_TEAM = 5A4FK27KR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MehmetErenOrtak.HomePlantApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MehmetErenOrtak.PlantPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomePlantApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomePlantApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plant Pal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plant Pal";
 			};
 			name = Debug;
 		};
@@ -508,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomePlantApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomePlantApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plant Pal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plant Pal";
 			};
 			name = Release;
 		};
@@ -551,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF7EE5782C3C4BC800FC21DE /* Build configuration list for PBXProject "HomePlantApp" */ = {
+		DF7EE5782C3C4BC800FC21DE /* Build configuration list for PBXProject "Plant Pal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF7EE59F2C3C4BC900FC21DE /* Debug */,
@@ -560,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF7EE5A12C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantApp" */ = {
+		DF7EE5A12C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant Pal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF7EE5A22C3C4BC900FC21DE /* Debug */,
@@ -569,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF7EE5A42C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantAppTests" */ = {
+		DF7EE5A42C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant PalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF7EE5A52C3C4BC900FC21DE /* Debug */,
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF7EE5A72C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "HomePlantAppUITests" */ = {
+		DF7EE5A72C3C4BC900FC21DE /* Build configuration list for PBXNativeTarget "Plant PalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF7EE5A82C3C4BC900FC21DE /* Debug */,

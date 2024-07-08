@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct HomePlantAppApp: App {
+struct PlantPal: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
